@@ -6,14 +6,15 @@
 
 ![personaje del encriptador](Assets/personaje.png)
 
-## Modo de uso del encriptador
-El encriptador de texto realizado tiene:
-- Primero, se debe ingresar el mensaje que se desea encriptar o desencriptar. Dicho texto debe escribirse sin acentos.
+### Modo de uso del encriptador
+Para utilizar el encriptador de texto debe:
+- Primero, se debe ir al siguente link: https://nancycima.github.io/ChallengeONE1-EncriptadorDeTexto/
+- Posteriormente, se debe ingresar el mensaje que se desea encriptar o desencriptar. Dicho texto debe escribirse sin acentos.
 - Luego, se debe presionar el botón correspondiente a la acción que se desea realizar ("encriptar" o "desencriptar").
 - Finalmente, aparece al costado derecho el texto final junto con un boton que nos permitira copiar en dicho texto.
 
 
-## ¿Qué significa cifrar un texto?
+### ¿Qué significa cifrar un texto?
 
  Un texto encriptado o cifrado es el resultado del cifrado realizado sobre un texto plano mediante un algoritmo. Este texto cifrado contiene una forma del texto plano original que es ilegible para un ser humano o una computadora sin el cifrado adecuado para descifrarlo. El descifrado es el proceso inverso que convierte un texto cifrado en texto legible.
  
@@ -41,6 +42,9 @@ En particular, en este repositorio encontrara:
 ### Contacto
 Si este proyecto le intereso y quiere saber más o si vio mi porfolio y le gustaria contactarme, puede hacerlo enviando un mail a:
 - nancy.cima.bertoni@hotmail.com
+
+
+
 
 
 *By: Nancy L. Cima - Date: 13/09/2022*
