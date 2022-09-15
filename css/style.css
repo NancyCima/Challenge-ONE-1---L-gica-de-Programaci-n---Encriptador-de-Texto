@@ -1,0 +1,193 @@
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img {
+    width: 25px;
+    height: auto;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#iconos-contacto img {
+    height: 30px;
+    width: auto;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1%;
+    border-radius: 5%;
+    z-index: -1;
+}
+
+.encrypt {
+    height: 100%;
+    width: 60%;
+    margin: 0 1% 10% 1%;
+    border-radius: 5%;
+    background-color: #E5E5E5;
+    background-image: url(./Assets/alphabets-background.png);
+}
+
+.encrypt textarea {
+    height: 250px;
+    width: 80%;
+    margin: 2%;
+    border-radius: 24px;
+    cursor: text;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #0A3871
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 3% 0;
+    font-size: 20px;
+}
+
+.info img {
+    margin: 0 0.5% 0 1%;
+}
+
+.buttons {
+    margin-bottom: 5%;
+}
+
+#enc {
+    height: 6%;
+    width: 30%;
+    border-radius: 24px;
+    padding: 2%;
+    margin-right: 2%;
+    background: #0A3871;
+    cursor: pointer;
+    font-size: 18px;
+    color:#D8DFE8;
+}
+
+#enc:hover {
+    transform: scale(1.10, 1.10);
+    background: #D8DFE8;
+    color: black;
+}
+
+#des {
+    height: 6%;
+    width: 30%;
+    border-radius: 24px;
+    padding: 2%;
+    background: #D8DFE8;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#des:hover {
+    transform: scale(1.10, 1.10);
+    background: #0A3871;
+    color:#D8DFE8;
+}
+
+.result {
+    display: inline-block;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    width: 35%;
+    margin-right: 1%;
+    margin-bottom: 4%;
+    border-radius: 5%;
+    background-color: #D8DFE8;
+}
+
+.result img {
+    display: block;
+    height: 50%;
+    margin: 10% auto;
+}
+
+.result h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0A3871;
+}
+
+.result p {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    color: #0A3871;
+}
+
+#encrypted-text {
+    display: none;
+    height: 250px;
+    width: 80%;
+    margin: 10%;
+    border-radius: 24px;
+    cursor: text;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+#copy {
+    display: none;
+    height: 3%;
+    width: 15%;
+    margin: 10% 40% 10% 40%;
+    border-radius: 20px;
+    padding: 2%;
+    cursor: pointer;
+    font-size: 18px;
+    background: #D8DFE8;
+}
+
+#copy:hover {
+    transform: scale(1.10, 1.10);
+    background: #0A3871;
+    color:#D8DFE8;
+}
+
+footer {
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 150px 150px 0 0;
+    background-color: #0A3871;
+}
+
+footer p {
+    text-align: center;
+    padding: 0.5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #E5E5E5;
+}
