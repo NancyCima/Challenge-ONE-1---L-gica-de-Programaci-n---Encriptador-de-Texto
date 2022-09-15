@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Nancy L. Cima">
+        <title>Encriptador de Texto</title>
+        <link rel="icon" href="./Assets/alura-logo.svg" type="image/x-icon">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="./Assets/alura-logo.svg" alt="Logo de Alura">
+            <div id="iconos-contacto">
+                <a href="https://github.com/NancyCima"><img src="Assets/icono-github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/nancy-lucia-cima/"><img src="Assets/icon-linkedin.jpg" alt="linkedin"></a>
+            </div>
+        </header>
+        <main>
+            <div class="main-section">
+                <div class="encrypt">
+                    <form>
+                        <textarea name="textField" id="text" placeholder="  Ingrese el texto que desea encriptar" required></textarea>
+                        <div class="info">
+                            <img src="./Assets/alerta.svg" alt="alerta">
+                            <p id="warning">Escriba el texto sin acentos.</p>
+                        </div>
+                        <div class="buttons">
+                            <input id="enc" type="button" value="Encriptar" onclick="encrypt()">
+                            <input id="des" type="button" value="Desencriptar" onclick="decrypt()">
+                        </div>
+                    </form>
+                </div>
+                <div class="result">
+                    <img id="result-img" src="./Assets/personaje.png" alt="Muñeco">
+                    <div id="result-text">
+                        <h1>Ningún mensaje fue encontrado</h1>
+                        <p>Ingresa el texto que desea encriptar o desencriptar.</p>
+                    </div>
+                    <div id="invisible">
+                        <textarea name="EncryptedText" id="encrypted-text" disabled></textarea>
+                        <button id="copy" onclick="copy()">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Challege ONE N°1 - Lógica de Programación</p>
+            <p>Nancy Lucía Cima - 2022</p>
+        </footer>
+    </body>
+   <script src="./js/encryptor.js"></script>
+</html>
