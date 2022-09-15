@@ -8,7 +8,7 @@
 
 ### Modo de uso del encriptador
 Para utilizar el encriptador de texto debe:
-- Primero, se debe ir al siguente link: https://nancycima.github.io/ChallengeONE1-EncriptadorDeTexto/
+- Primero, se debe ir al siguente link: https://nancycima.github.io/ChallengeONE1-LogicaDeProgramacion-EncriptadorDeTexto/
 - Posteriormente, se debe ingresar el mensaje que se desea encriptar o desencriptar. Dicho texto debe escribirse sin acentos.
 - Luego, se debe presionar el botón correspondiente a la acción que se desea realizar ("encriptar" o "desencriptar").
 - Finalmente, aparece al costado derecho el texto final junto con un boton que nos permitira copiar en dicho texto.
